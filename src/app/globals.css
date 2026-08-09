@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+html.dark body {
+  background: #080d0f;
+}
