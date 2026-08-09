@@ -33,7 +33,7 @@ const ProjectCard = ({ project }) => {
           fill
           className="object-cover opacity-85 transition duration-500 group-hover:scale-110 group-hover:opacity-100 dark:opacity-60 dark:group-hover:opacity-90"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-white/90 via-white/10 to-transparent transition-opacity duration-300 group-hover:from-white/75 dark:from-[#11171a] dark:via-transparent dark:group-hover:from-[#11171a]/80" />
+        <div className="absolute inset-0 bg-linear-to-t from-white/90 via-white/10 to-transparent transition-opacity duration-300 group-hover:from-white/75 dark:from-[#11171a] dark:via-transparent dark:group-hover:from-[#11171a]/80" />
         <div className="absolute right-3 top-3 flex gap-2 opacity-0 translate-y-1 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
           <Link href={`/projects/${project.id}`} aria-label={`View ${project.name} details`} className="rounded-full border border-slate-300 bg-white/80 p-2 text-slate-600 shadow-sm backdrop-blur transition hover:border-teal-400 hover:text-teal-600 dark:border-white/15 dark:bg-black/20 dark:text-slate-300 dark:hover:border-emerald-400 dark:hover:text-emerald-300">
             <FiGithub size={12} />

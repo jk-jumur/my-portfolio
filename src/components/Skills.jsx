@@ -122,7 +122,7 @@ const Skills = () => (
                     </div>
                     <div className="h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
                       <div
-                        className={`h-full rounded-full bg-gradient-to-r ${style.bar} transition-all duration-700 group-hover:brightness-110`}
+                        className={`h-full rounded-full bg-linear-to-r ${style.bar} transition-all duration-700 group-hover:brightness-110`}
                         style={{ width: `${value}%` }}
                       />
                     </div>
