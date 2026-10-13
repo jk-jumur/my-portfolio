@@ -1,6 +1,6 @@
 const educationItems = [
   {
-    label: "Currently studying · 2nd year",
+    label: "Currently studying · 3rd year",
     title: "Bachelor of Business Administration (BBA)",
     institute: "Feni Government College, Feni",
     description:
