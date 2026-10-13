@@ -1,5 +1,28 @@
 export const projects = [
   {
+    id: "gympilot",
+    name: "GymPilot",
+    label: "Fitness & Gym Management Platform",
+    description:
+      "A full-stack fitness platform connecting members, trainers, and admins with role-based dashboards, Stripe payments, and a vibrant community forum.",
+    stack: [
+      "Next.js 16",
+      "Tailwind CSS v4",
+      "MongoDB",
+      "Better Auth",
+      "Stripe",
+      "Express",
+    ],
+    image: "/gympilot-preview.svg",
+    accent: "orange",
+    liveUrl: "https://gympilot-client.vercel.app/",
+    githubUrl: "https://github.com/jk-jumur/gympilot-client",
+    challenges:
+      "Building a multi-role platform where members, trainers, and admins each get dedicated dashboards while keeping session auth, Stripe checkout, and role-based access control secure across all workflows.",
+    improvements:
+      "Add real-time notifications for booking confirmations, in-app messaging between trainers and members, advanced analytics charts for admins, and a mobile app.",
+  },
+  {
     id: "skillsphere",
     name: "SkillSphere",
     label: "Learning platform",

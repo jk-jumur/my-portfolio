@@ -4,6 +4,13 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 const ProjectCard = ({ project }) => {
   const accentStyles = {
+     orange: {
+    border: "border-orange-200 dark:border-orange-900/40",
+    badge: "bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-300",
+    glow: "from-orange-500/20 via-amber-500/10 to-transparent",
+    button: "bg-orange-500 hover:bg-orange-600",
+    text: "text-orange-600 dark:text-orange-400",
+  },
     teal: {
       glow: "group-hover:bg-emerald-400/40 dark:group-hover:bg-emerald-400/25",
       shine: "group-hover:bg-emerald-200/25",
