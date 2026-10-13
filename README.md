@@ -6,7 +6,7 @@ A responsive personal portfolio built to present Jannatul Khusbu's work, technic
 
 | Project | Live preview | Main stack |
 | --- | --- | --- |
-| **GymPilot** | [Open project](https://gympilot-client.vercel.app) | Next.js 15, Tailwind CSS v4, MongoDB, Better Auth, Stripe, Express |
+| **GymPilot** | [Open project](https://gympilot-client.vercel.app) | Next.js 16, Tailwind CSS v4, MongoDB, Better Auth, Stripe, Express |
 | **SkillSphere** | [Open project](https://skillsphere-psi-six.vercel.app) | Next.js, Tailwind CSS, MongoDB, Hero UI, Better Auth |
 | **KeenKeeper** | [Open project](https://assignment-7-inky.vercel.app) | Next.js, Tailwind CSS, DaisyUI |
 | **DigiTools** | [Open project](https://digitoolsplateform.netlify.app) | React, Tailwind CSS, DaisyUI, JavaScript ES6 |
